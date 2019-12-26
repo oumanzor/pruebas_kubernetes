@@ -1,0 +1,17 @@
+kubectl delete clusterrole flannel -n kube-system
+
+kubectl delete clusterrolebinding flannel-n kube-system
+
+kubectl delete clusterrolebinding flannel -n kube-system
+
+kubectl delete serviceaccount flannel -n kube-system
+
+kubectl delete configmap kube-flannel-cfg -n kube-system
+
+kubectl delete daemonset.extensions kube-flannel-ds -n kube-system
+
+-Proceed also with Flannel Pods deletion:
+
+kubectl delete pod kube-flannel-ds-5bzrx -n kube-system
+
+kubectl delete pod kube-flannel-ds-bfs9k -n kube-system
