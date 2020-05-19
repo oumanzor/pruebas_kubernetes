@@ -1,0 +1,7 @@
+database-version = 9.5
+environment = 10thmanlabs
+regions = eastus2
+resource-groups = cl_k8s-10thman-labs
+sku-family = Gen5
+sku-name = GP_Gen5_2
+sku-tier = GeneralPurpose

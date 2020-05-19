@@ -1,0 +1,15 @@
+consistency-level = Session
+cost-center = D1011237
+environment = prod
+failover-priority = 0
+kind = MongoDB
+max-interval-in-seconds = 5
+max-staleness-prefix = 100
+name = 
+notificationdistlist = 
+offer-type = Standard
+owner-info = 
+resource-group = cl_k8s-prod-eastus2
+sponsor-info =
+subnet-name = cl-a0-prod-eastus2-fligl
+vnet-name = cl-prod-eastus2

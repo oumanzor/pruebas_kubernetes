@@ -1,0 +1,16 @@
+account-kind = BlobStorage
+account-replication-type = LRS
+account-tier = Standard
+address-space = 12.50.0.0
+container-access-type = private
+cost-center =
+default-action = Allow
+environment = prod
+name = elex
+notificationdistlist =
+owner-info = N:Alejandro DAndrea <alejandro.dandrea@walmart.com>
+resource-group = cl_k8s-prod-eastus2
+sponsor-info =
+storage-blob-type = Block
+subnet-name = cl-a1-prod-eastus2-fligl
+
